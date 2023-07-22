@@ -1,4 +1,4 @@
-# libcamera-broad
+# libcamera-broadcaster
 
 Heavily based on raspivid-broadcaster by Richardn2002, but converted to use more recent libcamera libraries instead of raspicam ones
 
