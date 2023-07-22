@@ -22,10 +22,10 @@ An IDR frame specifies that no frame after the IDR frame can reference any frame
 
 # Installation/Demo
 ```
-git clone https://github.com/Richardn2002/raspivid-broadcaster.git
-cd raspivid-broadcaster
+git clone https://github.com/Squeack/libcamera-broadcaster.git
+cd libcamera-broadcaster
 npm install
-node ws+http-server.js  # Then simply browse to http://<address-of-your-pi>:2050/live.html
+node ws+http-server.js  # Then simply browse to http://<address-of-your-pi>:2050/camera.html
 ```
 
 # Usage
