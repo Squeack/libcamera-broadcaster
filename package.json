@@ -1,0 +1,16 @@
+{
+  "name": "raspivid-broadcaster",
+  "version": "1.0.0",
+  "description": "Using @131 's h264-live-player but struggling with multiple watchers? Here I present a simple server to solve that for you.",
+  "main": "raspivid-broadcaster.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ruiqi Niu <richard_niu@sjtu.edu.cn>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "stream-split": "^1.1.0",
+    "ws": "^7.4.4"
+  }
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Wide-angle view</title>
+</head>
+<body>
+    <script type="text/javascript" src="./http-live-player.js"></script>
+    <script>
+        var canvas = document.createElement("canvas");
+        document.body.appendChild(canvas);
+        var wsavc = new WSAvcPlayer(canvas, "webgl");
+        wsavc.connect("ws://" + document.location.hostname + ":8080");
+    </script>
+</body>
+</html>
